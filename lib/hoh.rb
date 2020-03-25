@@ -49,7 +49,18 @@ def naming_system
        label:"class",
        sub_category:{
          label:"class",
-         
+         sub_category:{
+           label:"Order",
+           sub_category:{
+             label:"Family",
+             sub_category:{
+               label:"Genus",
+               sub_category:{
+                 label:"Species",
+                 sub_category: nil
+             }
+           }
+         }
        }
      }
    }
